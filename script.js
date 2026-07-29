@@ -1,4 +1,8 @@
 document.documentElement.classList.add('js');
+const originStylesheet = document.createElement('link');
+originStylesheet.rel = 'stylesheet';
+originStylesheet.href = 'origin.css';
+document.head.appendChild(originStylesheet);
 
 const menuButton = document.querySelector('[data-menu]');
 const navigation = document.querySelector('[data-nav]');
