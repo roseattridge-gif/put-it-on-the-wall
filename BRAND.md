@@ -1,4 +1,4 @@
-# Put It On The Wall™ — MVP brand system
+# Put It On The Wall — MVP brand system
 
 ## Brand role
 
@@ -38,7 +38,7 @@ The primary buyer is the person carrying the decision risk: COO, CDAO, Transform
 
 ## Visual direction
 
-**Creative territory:** editorial-industrial. The identity combines a serious leadership publication with the physical evidence of a working wall: grid lines, tape, marker strokes, numbered cards and quality gates.
+**Creative territory:** Crisp Signal. A serious, modern decision system with the physical evidence of a working wall: grid lines, tape, marker strokes, numbered cards and quality gates.
 
 Avoid conventional AI imagery, glowing gradients, robots, circuit patterns, stock photography of workshops and generic sticky-note collages.
 
@@ -47,13 +47,16 @@ Avoid conventional AI imagery, glowing gradients, robots, circuit patterns, stoc
 | Role | Name | Hex |
 |---|---|---|
 | Primary | Ink | `#151510` |
-| Ground | Wall white | `#F3EFE4` |
-| Secondary ground | Plaster | `#E4DDCE` |
-| Signal | Decision yellow | `#E8FF3F` |
-| Evidence/action | Marker red | `#EF3B2D` |
-| Light contrast | Clean white | `#FFFDF7` |
+| Ground | Crisp cool white | `#F7F7F3` |
+| Secondary ground | Concrete grey | `#E4E5E0` |
+| Hero signal | Post-it yellow | `#E8FF3F` |
+| Secondary signal | Electric cobalt | `#2855FF` |
+| Exception only | Marker red | `#EF3B2D` |
+| Light contrast | Clean white | `#FFFFFF` |
 
-Signal yellow should be used for action, invitation and decision moments. Marker red should be used for challenge, evidence and emphasis. Neither should become a decorative wash across the whole brand.
+The master brand is disciplined: black, cool white and fluorescent yellow. Cobalt supports evidence, clarity, information and links. Marker red is reserved for contradiction, warning, stop and challenge marks; it is never a general decorative colour.
+
+Inside the working WALL system, colour carries meaning: blue for facts and evidence, yellow for experience and observations, pink/red for contradictions and risks, green for decisions and commitments, and grey for unknowns and questions.
 
 ### Typography
 
