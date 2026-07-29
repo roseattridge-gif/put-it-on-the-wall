@@ -184,10 +184,9 @@ function enhanceBuyerJourney() {
 
 /*
  * Consent-led Google Analytics setup.
- * The existing Rose Attridge GA4 property is used for the MVP so activity can
- * be separated by hostname while a dedicated Put It On The Wall stream is created.
+ * Analytics loads only after the visitor explicitly accepts analytics cookies.
  */
-const GA_MEASUREMENT_ID = 'G-EFJ4V8H3XH';
+const GA_MEASUREMENT_ID = 'G-BWE4ZXDJ6Q';
 const CONSENT_KEY = 'pitw-analytics-consent-v1';
 let analyticsLoaded = false;
 let analyticsEventsBound = false;
@@ -237,21 +236,21 @@ function addAnalyticsEventTracking() {
   });
 
   document.querySelectorAll('a[href="#method"]').forEach((link) => {
-    link.addEventListener('click', () => trackEvent('select_content', {
+    link.addEventListener('click', () => trackEvent('wall_method_interest', {
       content_type: 'method',
       item_id: 'wall_method'
     }));
   });
 
   document.querySelectorAll('a[href="#fit"]').forEach((link) => {
-    link.addEventListener('click', () => trackEvent('select_content', {
+    link.addEventListener('click', () => trackEvent('fit_check', {
       content_type: 'qualification',
       item_id: 'challenge_fit'
     }));
   });
 
   document.querySelectorAll('a[href="#buying"]').forEach((link) => {
-    link.addEventListener('click', () => trackEvent('select_content', {
+    link.addEventListener('click', () => trackEvent('buying_process_interest', {
       content_type: 'buying_journey',
       item_id: 'how_buying_works'
     }));
