@@ -3,138 +3,185 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Put It On The Wall | Make complexity visible</title>
-  <meta name="description" content="A new operating system for organisational complexity. Make the problem visible. Make it collective. Make it possible to change.">
+  <title>Put It On The Wall | Make organisational complexity visible</title>
+  <meta name="description" content="Put It On The Wall is an operating system for making organisational complexity visible, creating shared understanding and turning it into decisions.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://putitonthewall.co.uk/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
-  <link rel="icon" href="favicon-16.png" type="image/png" sizes="16x16">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#090909">
+  <meta name="theme-color" content="#0b0b0c">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Put It On The Wall">
-  <meta property="og:title" content="Too complex for one head? Put it on the wall.">
-  <meta property="og:description" content="A movement for making organisational complexity visible—and possible to change.">
+  <meta property="og:title" content="Your organisation isn't confused. The work is invisible.">
+  <meta property="og:description" content="A different way to solve organisational complexity: make it visible, make sense of it together, decide what moves.">
   <meta property="og:url" content="https://putitonthewall.co.uk/">
   <meta property="og:image" content="https://putitonthewall.co.uk/social-card.svg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","name":"Put It On The Wall","url":"https://putitonthewall.co.uk/","founder":{"@type":"Person","name":"Rose Attridge","url":"https://roseattridge.com/"},"description":"A new operating system for organisational complexity.","email":"rose@roseattridge.com"}
+  {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://putitonthewall.co.uk/#organisation","name":"Put It On The Wall","url":"https://putitonthewall.co.uk/","email":"rose@roseattridge.com","founder":{"@type":"Person","name":"Rose Attridge","url":"https://roseattridge.com/"},"description":"An operating system for making organisational complexity visible and turning it into decisions."},{"@type":"WebSite","@id":"https://putitonthewall.co.uk/#website","url":"https://putitonthewall.co.uk/","name":"Put It On The Wall","publisher":{"@id":"https://putitonthewall.co.uk/#organisation"},"inLanguage":"en-GB"},{"@type":"Service","@id":"https://putitonthewall.co.uk/#ai-opportunity-wall","name":"AI Opportunity Wall","serviceType":"Organisational decision programme","url":"https://putitonthewall.co.uk/#today","provider":{"@id":"https://putitonthewall.co.uk/#organisation"},"areaServed":"GB","offers":{"@type":"Offer","price":"15000","priceCurrency":"GBP","description":"Founding-team programme from £15,000 plus VAT, subject to fit and scope."}}]}
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Put It On The Wall home">PUT IT ON<br>THE WALL<span>.</span></a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav id="nav" aria-label="Primary navigation">
-      <a href="#philosophy">Philosophy</a><a href="#method">The method</a><a href="#rose">Rose</a>
-      <a class="nav-cta" href="#start">Bring us the problem</a>
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#top" aria-label="Put It On The Wall home"><span>PUT IT</span><span>ON THE WALL</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="#idea">The idea</a><a href="#method">The method</a><a href="#where">Where it works</a><a href="#origin">Origin</a><a href="#today">Available today</a><a class="nav-action" href="fit.html">Bring us a problem</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero" id="top">
-      <p class="kicker">A new operating system for organisational complexity</p>
-      <h1>Too complex<br>for one head?</h1>
-      <p class="marker-circle">Put it on<br>the wall.</p>
-      <div class="hero-foot"><p>Not another deck.<br>A shared picture of reality.</p><a href="#philosophy">Read the philosophy ↓</a></div>
+      <p class="eyebrow reveal">The operating system for organisational complexity</p>
+      <h1 class="reveal">Your organisation<br>isn't confused.<br><span>The work is invisible.</span></h1>
+      <div class="hero-bottom reveal">
+        <p>When the problem becomes too complex for one person to hold in their head, stop presenting it.</p>
+        <a class="text-link" href="#idea">Start seeing it <span>↓</span></a>
+      </div>
+      <div class="marker marker-hero" aria-hidden="true">Put it on the wall.</div>
     </section>
 
-    <section class="manifesto" id="philosophy">
-      <p class="label">The manifesto / 001</p>
-      <div class="manifesto-copy">
-        <p>Organisations don’t have a shortage of intelligence.</p>
-        <p>They have a shortage of <mark>shared understanding.</mark></p>
-        <p>When the whole picture cannot be seen, decisions get made from fragments. Complexity gets hidden behind status updates. Work multiplies. Meetings repeat.</p>
-        <p class="pink">The answer is not another presentation about the problem.</p>
-        <p>Make the problem visible.<br>Make it collective.<br>Make it possible to change.</p>
+    <section class="anti-deck" id="idea">
+      <div class="section-index">01 / The enemy</div>
+      <div class="manifesto reveal">
+        <p>Complexity enters the room.</p>
+        <p>PowerPoint makes it linear.</p>
+        <p>The hierarchy makes it polite.</p>
+        <p>The meeting makes it somebody else's problem.</p>
+        <p class="manifesto-turn">Then the deck disappears.</p>
+        <h2>We make the work impossible to ignore.</h2>
+      </div>
+      <aside class="margin-note reveal">Not another deck.<br>One shared reality.</aside>
+    </section>
+
+    <section class="complexity section-pad">
+      <div class="section-index">02 / The problem</div>
+      <div class="split-heading reveal">
+        <h2>Organisations do not become complex all at once.</h2>
+        <p>They become complex one hidden dependency, one competing version of the truth and one unmade decision at a time.</p>
+      </div>
+      <div class="complexity-field reveal" aria-label="Fragmented organisational information becoming visible">
+        <span style="--x:4%;--y:12%;--r:-3deg">A dependency nobody owns</span>
+        <span style="--x:54%;--y:7%;--r:2deg">A metric without context</span>
+        <span style="--x:17%;--y:61%;--r:1deg">A risk buried on slide 64</span>
+        <span style="--x:67%;--y:57%;--r:-2deg">A decision everyone thought was made</span>
+        <strong>Hidden work<br>creates visible failure.</strong>
       </div>
     </section>
 
-    <section class="dark failure">
-      <p class="label muted">Why transformation stalls / 002</p>
-      <div class="split intro"><h2>You cannot solve what the room <em>cannot see.</em></h2><p>Most transformation fails long before delivery. It fails when the organisation creates an incomplete picture of itself—and calls it alignment.</p></div>
-      <div class="rows">
-        <article><small>01</small><h3>The truth is fragmented</h3><p>Strategy lives in one deck. Delivery in another. Risk in a spreadsheet. Reality in people’s heads.</p></article>
-        <article><small>02</small><h3>The room is too small</h3><p>A handful of people simplify the problem, then present the answer to everyone expected to deliver it.</p></article>
-        <article><small>03</small><h3>The format is wrong</h3><p>Slides force complexity into a sequence. Organisations are systems. Systems do not happen one slide at a time.</p></article>
+    <section class="definition section-pad section-black">
+      <div class="section-index">03 / The alternative</div>
+      <div class="definition-grid">
+        <h2 class="reveal">Put It On The Wall is a different way to solve organisational complexity.</h2>
+        <div class="definition-copy reveal">
+          <p>Not a workshop company. Not a facilitation technique. Not a more colourful way to run a meeting.</p>
+          <p>It is a shared operating environment for seeing the whole system, challenging what is assumed and making decisions that survive contact with reality.</p>
+        </div>
       </div>
-      <div class="equation"><span>POWERPOINT</span><b>≠</b><span>SHARED REALITY</span></div>
+      <div class="principle reveal"><span>If it cannot be seen together,</span><strong>it cannot be solved together.</strong></div>
     </section>
 
-    <section class="principle">
-      <p class="label">The wall / 003</p>
-      <h2>The wall is not<br>the product.<br><span>It is the principle.</span></h2>
-      <div class="split principle-grid">
-        <p class="lead">If it matters to the organisation, it should be visible to the people changing it.</p>
-        <div class="rules"><p><b>Visibility</b> over reporting</p><p><b>Participation</b> over presentation</p><p><b>Systems</b> over sequences</p><p><b>Decisions</b> over discussion</p></div>
-      </div>
+    <section class="method section-pad" id="method">
+      <div class="section-index">04 / The WALL method</div>
+      <div class="split-heading reveal"><h2>Four moves.<br>One shared reality.</h2><p>The WALL method turns scattered knowledge into a visible path from evidence to action.</p></div>
+      <ol class="method-list">
+        <li class="reveal"><span>W</span><div><small>Witness reality</small><h3>Put the truth in the room.</h3><p>Evidence, experience, constraints, contradictions and unknowns—without forcing them into a premature story.</p></div></li>
+        <li class="reveal"><span>A</span><div><small>Articulate the problem</small><h3>Name what is actually happening.</h3><p>Separate symptoms from causes, inherited assumptions from facts and activity from value.</p></div></li>
+        <li class="reveal"><span>L</span><div><small>Locate the leverage</small><h3>Find where change will move the system.</h3><p>Compare interventions against the evidence. Technology is an option, never the starting point.</p></div></li>
+        <li class="reveal"><span>L</span><div><small>Launch the move</small><h3>Turn understanding into commitment.</h3><p>One decision, one owner, one proof rule and the next action visible to everyone carrying the risk.</p></div></li>
+      </ol>
     </section>
 
-    <section class="method" id="method">
-      <p class="label">The WALL Method™ / 004</p>
-      <div class="split intro"><h2>Four moves.<br>One shared reality.</h2><p>A rigorous way to turn complexity into collective intelligence—and collective intelligence into action.</p></div>
-      <div class="method-grid">
-        <article><strong>W</strong><small>01</small><h3>Witness</h3><p>Put the reality in the room. Not the reported version. The actual one.</p></article>
-        <article><strong>A</strong><small>02</small><h3>Arrange</h3><p>Make relationships, dependencies and contradictions visible.</p></article>
-        <article><strong>L</strong><small>03</small><h3>Locate</h3><p>Find the decisions, leverage points and gaps that change the system.</p></article>
-        <article><strong>L</strong><small>04</small><h3>Lock</h3><p>Turn shared understanding into owned action—and keep it visible.</p></article>
+    <section class="transformation section-pad">
+      <div class="section-index">05 / The transformation</div>
+      <h2 class="reveal">The wall is where complexity changes state.</h2>
+      <div class="transformation-track reveal">
+        <article><small>Before</small><div class="chaos-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><h3>Fragmented reality</h3><p>Documents, meetings, opinions and data that never meet.</p></article>
+        <span class="track-arrow">→</span>
+        <article><small>On the wall</small><div class="wall-grid-mini" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><h3>Shared understanding</h3><p>The whole system made visible at the same time.</p></article>
+        <span class="track-arrow">→</span>
+        <article><small>After</small><div class="decision-page" aria-hidden="true"><b>DECISION / 01</b><i></i><i></i><i></i></div><h3>Executive decision</h3><p>A prioritised move with ownership and proof.</p></article>
       </div>
-      <p class="micro">The method is physical by design. The operating system will not always be.</p>
+      <p class="marker marker-track">Seeing is a management act.</p>
     </section>
 
-    <section class="product" id="product">
-      <div class="product-meta"><span>Now available</span><span>01 / AI transformation</span></div>
-      <div><p>The</p><h2>AI<br>Opportunity<br>Wall<span>.</span></h2></div>
-      <div class="product-copy">
-        <p class="lead">Stop collecting AI use cases. Start making decisions about where AI creates real value.</p>
-        <p>A focused executive intervention that maps operational reality, surfaces credible opportunities and creates an owned, prioritised route to action.</p>
-        <ul><li>A visible map of opportunity</li><li>Decisions with the people who own the work</li><li>A portfolio grounded in value and feasibility</li><li>A practical 90-day path forward</li></ul>
-        <a class="button" href="mailto:rose@roseattridge.com?subject=AI%20Opportunity%20Wall">Explore the AI Opportunity Wall <span>↗</span></a>
-      </div>
-    </section>
-
-    <section class="proof">
-      <p class="label">Where this works / 005</p>
-      <h2>High stakes.<br>Many voices.<br>No single truth.</h2>
-      <div class="proof-grid">
-        <article><small>01</small><h3>Advanced engineering</h3><p>Connecting programme reality across functions, dependencies and decisions.</p></article>
-        <article><small>02</small><h3>AI &amp; data</h3><p>Moving from technology theatre to governed, valuable use cases.</p></article>
-        <article><small>03</small><h3>Operating models</h3><p>Making the work—not the org chart—the basis for transformation.</p></article>
-        <article><small>04</small><h3>Strategy</h3><p>Turning ambition into choices people can understand, challenge and own.</p></article>
+    <section class="today section-pad section-black" id="today">
+      <div class="section-index">06 / Available today</div>
+      <div class="product-lockup reveal"><p>01 / First product</p><h2>AI Opportunity Wall</h2><span>Six weeks. One team. One decision worth defending.</span></div>
+      <div class="product-grid">
+        <div class="product-story reveal"><p>AI pressure makes weak problem definition expensive. AI Opportunity Wall helps an executive team decide where AI creates value, where the foundations need fixing and where the right answer is no AI at all.</p><a class="button" href="fit.html">Discuss your decision</a></div>
+        <dl class="product-facts reveal"><div><dt>Decision</dt><dd>Pursue, fix, defer or stop</dd></div><div><dt>Scope</dt><dd>One significant cross-functional problem</dd></div><div><dt>Output</dt><dd>Executive Decision Record + 30/60/90 move</dd></div><div><dt>Founding fee</dt><dd>From £15,000 + VAT</dd></div></dl>
       </div>
     </section>
 
-    <section class="dark founder" id="rose">
-      <p class="label muted">The founder / 006</p>
-      <h2>ROSE<br>ATTRIDGE<span>.</span></h2>
-      <div class="story">
-        <p class="lead">Rose has spent her career taking complex operations apart—and putting them back together so people can actually run them.</p>
-        <p>Across Lean Six Sigma, operational excellence, data, AI governance, advanced engineering and enterprise transformation, the same thing kept working.</p>
-        <p>Brown paper. Sharpies. The people who know the work. One shared view of what is really happening.</p>
-        <p class="pink lead">Put It On The Wall is the philosophy that came out of the work.</p>
+    <section class="where section-pad" id="where">
+      <div class="section-index">07 / Where it works</div>
+      <div class="split-heading reveal"><h2>Different walls.<br>The same principle.</h2><p>Whenever complexity is distributed across people, systems and competing priorities, visibility changes the quality of the decision.</p></div>
+      <div class="application-list">
+        <a href="ai-strategy.html"><span>01</span><strong>AI strategy</strong><em>Available now</em></a>
+        <a href="programme-recovery.html"><span>02</span><strong>Programme recovery</strong><em>Application</em></a>
+        <a href="transformation.html"><span>03</span><strong>Transformation</strong><em>Application</em></a>
+        <a href="operating-model.html"><span>04</span><strong>Operating model design</strong><em>Application</em></a>
+        <a href="supplier-quality.html"><span>05</span><strong>Supplier quality</strong><em>Application</em></a>
+        <a href="portfolio-prioritisation.html"><span>06</span><strong>Portfolio prioritisation</strong><em>Application</em></a>
+        <a href="executive-alignment.html"><span>07</span><strong>Executive alignment</strong><em>Application</em></a>
+        <a href="digital-transformation.html"><span>08</span><strong>Digital transformation</strong><em>Application</em></a>
       </div>
     </section>
 
-    <section class="engage" id="start">
-      <p class="label">Start here / 007</p>
-      <h2>Bring us the problem that will not fit in a deck.</h2>
-      <div class="split engage-grid">
-        <p>We start with a 45-minute complexity briefing. No pitch theatre. No pre-written answer. We listen, find the shape of the problem and decide whether putting it on the wall will change it.</p>
-        <ol><li><small>01</small>Tell us what is stuck</li><li><small>02</small>Define who needs to see it</li><li><small>03</small>Design the right wall</li></ol>
+    <section class="origin section-pad" id="origin">
+      <div class="section-index">08 / The origin</div>
+      <div class="origin-grid">
+        <div class="origin-title reveal"><p>Rose Attridge</p><h2>The insight was earned in the work.</h2><div class="marker marker-origin">Not invented in a brand workshop.</div></div>
+        <div class="origin-story reveal"><p class="lead">Across Lean Six Sigma, operational excellence, advanced engineering, AI governance, data and transformation, the turning point kept repeating.</p><blockquote>Get the right people around the wall. Make the work visible. Build one shared picture.</blockquote><p>What looked like confusion became a system. What sounded like disagreement became different evidence. What felt immovable became a decision people could own.</p><p>Put It On The Wall turns that field-tested principle into intellectual property organisations can use, teach and eventually operate for themselves.</p></div>
       </div>
-      <a class="big-cta" href="mailto:rose@roseattridge.com?subject=Put%20our%20problem%20on%20the%20wall"><span>Put your problem<br>on the wall</span><span>↗</span></a>
+    </section>
+
+    <section class="outputs section-pad section-grey">
+      <div class="section-index">09 / What leaves the room</div>
+      <div class="split-heading reveal"><h2>Not sticky notes.<br>Executive infrastructure.</h2><p>The physical wall creates shared understanding. The work then becomes a durable management system.</p></div>
+      <div class="output-cards reveal">
+        <article><small>01</small><div class="paper-output"><b>EXECUTIVE<br>DECISION RECORD</b><i></i><i></i><i></i></div><h3>Decision record</h3></article>
+        <article><small>02</small><div class="paper-output register"><b>PRIORITISED<br>REGISTER</b><i></i><i></i><i></i></div><h3>Opportunity register</h3></article>
+        <article><small>03</small><div class="paper-output roadmap"><b>90-DAY<br>MOVE</b><i></i><i></i><i></i></div><h3>Action roadmap</h3></article>
+        <article><small>04</small><div class="paper-output archive"><b>DIGITISED<br>WALL</b><i></i><i></i><i></i></div><h3>Visible evidence base</h3></article>
+      </div>
+    </section>
+
+    <section class="models section-pad">
+      <div class="section-index">10 / The system</div>
+      <div class="model-grid">
+        <article class="model-now reveal"><small>Available today</small><h2>Expert-led decision programmes.</h2><p>AI Opportunity Wall is the first product: Rose-led at the moments requiring judgement, operated with your internal team.</p><a class="text-link" href="fit.html">Bring us a decision →</a></article>
+        <article class="model-future reveal"><small>Being built</small><h2>An operating system organisations can own.</h2><ul><li>Transformation Wall</li><li>Executive Wall</li><li>Risk Wall</li><li>Portfolio Wall</li><li>Software + AI</li><li>Books, certification + licensing</li></ul><p>Direction, not a catalogue. Future products will be released only when the method has earned them.</p></article>
+      </div>
+    </section>
+
+    <section class="faq section-pad section-black" id="faq">
+      <div class="section-index">11 / Questions</div>
+      <h2 class="reveal">The sceptical executive's questions.</h2>
+      <div class="faq-list">
+        <details class="reveal"><summary>Is this a workshop?</summary><p>No. A workshop may be one moment in the work. The product is shared understanding, a defensible decision and the infrastructure to act on it.</p></details>
+        <details class="reveal"><summary>Do you produce a slide deck?</summary><p>No strategy theatre. Executive outputs are concise decision records, prioritised registers, digitised walls and action plans designed to be used.</p></details>
+        <details class="reveal"><summary>Does AI Opportunity Wall always recommend AI?</summary><p>No. Pursue, fix, defer and stop are all legitimate outcomes. A credible no-AI decision can save more value than another pilot.</p></details>
+        <details class="reveal"><summary>Who needs to be involved?</summary><p>An accountable executive sponsor, one capable internal operator and the small cross-functional group that holds the evidence and operating reality.</p></details>
+        <details class="reveal"><summary>What does it cost?</summary><p>Founding-team AI Opportunity Wall programmes start from £15,000 + VAT. A fit conversation establishes whether the problem is suitable before any scope is proposed.</p></details>
+      </div>
+    </section>
+
+    <section class="closing section-pad">
+      <p class="eyebrow reveal">Bring the problem. Not the predetermined answer.</p>
+      <h2 class="reveal">What is your organisation trying—and failing—to see?</h2>
+      <div class="closing-action reveal"><a class="button" href="fit.html">Put it on the wall</a><a href="mailto:rose@roseattridge.com?subject=Put%20It%20On%20The%20Wall%20enquiry">Or email Rose directly</a></div>
+      <div class="marker marker-close">Start with reality.</div>
     </section>
   </main>
 
-  <footer><a class="wordmark" href="#top">PUT IT ON<br>THE WALL<span>.</span></a><p>A movement for making<br>complexity visible.</p><div><a href="mailto:rose@roseattridge.com">Email</a> · <a href="privacy.html">Privacy</a> · <a href="https://www.linkedin.com/in/roseattridge">LinkedIn</a></div><small>© <span data-year></span> Put It On The Wall</small></footer>
+  <footer class="site-footer"><a class="footer-mark" href="#top">PUT IT<br>ON THE WALL</a><p>Making organisational complexity visible.</p><div><a href="mailto:rose@roseattridge.com">rose@roseattridge.com</a><a href="privacy.html">Privacy</a><a href="https://roseattridge.com/">Rose Attridge</a><button type="button" data-consent-open>Analytics choices</button></div><small>© <span data-year></span> Put It On The Wall.</small></footer>
   <script src="script.js" defer></script>
 </body>
 </html>

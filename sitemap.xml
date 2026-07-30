@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://putitonthewall.co.uk/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://putitonthewall.co.uk/</loc><lastmod>2026-07-30</lastmod><priority>1.0</priority></url>
+  <url><loc>https://putitonthewall.co.uk/ai-strategy.html</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
+  <url><loc>https://putitonthewall.co.uk/programme-recovery.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/transformation.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/operating-model.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/supplier-quality.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/portfolio-prioritisation.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/executive-alignment.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://putitonthewall.co.uk/digital-transformation.html</loc><lastmod>2026-07-30</lastmod><priority>0.7</priority></url>
 </urlset>
