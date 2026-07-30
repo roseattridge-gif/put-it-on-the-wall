@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Put It On The Wall">
-  <rect width="64" height="64" fill="#090909"/>
-  <path d="M8 8h48v48H8z" fill="none" stroke="#f2efe8" stroke-width="3"/>
-  <path d="M19 17l5 30 8-20 8 20 5-30" fill="none" stroke="#f50067" stroke-width="5" stroke-linejoin="bevel"/>
+  <rect width="64" height="64" fill="#f50067"/>
+  <path d="M4 4h56v56H4z" fill="none" stroke="#090909" stroke-width="4"/>
+  <path d="M13 14l8 35 11-22 11 22 8-35" fill="none" stroke="#090909" stroke-width="7" stroke-linejoin="bevel"/>
+  <path d="M48 51h6v6h-6z" fill="#f2efe8"/>
 </svg>
